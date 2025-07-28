@@ -1,0 +1,686 @@
+{
+  "accessibility": {
+    "irma_logo": "Logo Yivi",
+    "slideshow": "Diapositiva {i} di {n}: {description}",
+    "menu": "Menu",
+    "back": "Indietro",
+    "close": "Chiudi",
+    "next": "Avanti",
+    "alert": "Avviso",
+    "previous": "Precedente",
+    "expanded": "Espanso",
+    "collapsed": "Compattato",
+    "unfold": "Espandi",
+    "update": "Aggiorna",
+    "remove": "Rimuovi",
+    "expand": "Espandi",
+    "expand_hint": "Doppio tocco per espandere",
+    "collapse_hint": "Doppio tocco per comprimere",
+    "refresh": "Aggiorna"
+  },
+  "new_terms_and_conditions": {
+    "title": "Nuovi termini e condizioni",
+    "explanation_markdown": "La gestione di Yivi è stata recentemente trasferita a un'altra organizzazione ([Yivi B.V.](https://yivi.app/en/about_yivi)).\n\nPertanto, i termini e le condizioni sono cambiati leggermente.\n\nTi chiediamo di [leggerli]({terms_url}) e accettarli qui sotto.",
+    "accept": "Accetta",
+    "dismiss": "Non ora"
+  },
+  "action_feedback": {
+    "ok": "OK"
+  },
+  "activity": {
+    "data_deleted": "Dati eliminati",
+    "data_deleted_semantics": "Dati eliminati da {issuerName} il {date}",
+    "data_received": "Dati ricevuti",
+    "data_received_semantics": "Dati ricevuti da {otherParty} il {date}",
+    "data_shared": "Dati condivisi",
+    "data_shared_semantics": "Dati condivisi con {otherParty} il {date}",
+    "signed_message": "Messaggio firmato",
+    "message_signed": "Messaggio firmato",
+    "signed_message_semantics": "Messaggio firmato da {otherParty} il {date}",
+    "shared_with": "Condiviso con",
+    "shared_data": "Dati condivisi",
+    "received_data": "Dati ricevuti",
+    "deleted_data": "Dati eliminati",
+    "empty_placeholder": "Non ci sono attività loggate ancora"
+  },
+  "arrow_back": {
+    "no_success": "Annullato",
+    "disclosure_success": "Successo, i tuoi dati sono stati condivisi",
+    "issuance_success": "Successo, i dati sono stati aggiunti",
+    "signature_success": "Successo, il messaggio è stato firmato",
+    "safari": "Tocca il nome dell'applicazione (come Safari, Chrome, Firefox) nell'angolo in alto a sinistra per tornare all'applicazione precedente."
+  },
+  "change_pin": {
+    "dialog": {
+      "title": "Sei sicuro?",
+      "body": "Sei sicuro di voler reimpostare il PIN corrente?",
+      "ok": "Cambia",
+      "cancel": "Annulla"
+    },
+    "toast": "Successo! Il tuo nuovo PIN è stato salvato",
+    "enter_pin": {
+      "instruction": "Inserisci il tuo PIN corrente",
+      "error_title": "PIN errato",
+      "error": "Inserisci il tuo PIN corrente",
+      "error_action": "OK"
+    },
+    "confirm_pin": {
+      "instruction": "Inserisci nuovamente il tuo PIN"
+    }
+  },
+  "choose_pin": {
+    "next": "Avanti",
+    "instruction": {
+      "long": "Scegli un PIN",
+      "short": "Scegli un PIN a 5 cifre"
+    },
+    "switch_pin_size": {
+      "long": "Preferisci un PIN più lungo?",
+      "short": "Preferisci un PIN più corto?"
+    }
+  },
+  "confirm_pin": {
+    "error": {
+      "title": "PIN inserito in modo errato",
+      "body": "I PIN non corrispondono. Scegli un nuovo PIN e riprova.",
+      "action": "OK"
+    }
+  },
+  "credential": {
+    "no_data": "Nessun dato",
+    "valid_until": "Valido fino a: {date}",
+    "expires_on": "Scade il {date}",
+    "expired_on": "Scaduto il {date}",
+    "date_at_time": "{date} alle {time}",
+    "issued_by": "Rilasciato da:",
+    "options": {
+      "title": "Opzioni",
+      "reobtain": "Reottenere",
+      "delete": "Elimina dati",
+      "confirm_delete": "Sei sicuro di voler eliminare questi dati?",
+      "delete_success": "Successo! I dati sono stati eliminati."
+    },
+    "about_to_expire": "Scadente",
+    "expired": "Scaduto",
+    "revoked": "Revocato",
+    "not_obtainable": "Questi dati non possono essere ottenuti. Per favore contatta {issuerName} per ottenere questi dati."
+  },
+  "data": {
+    "tab": {
+      "title": "I miei dati",
+      "obtain_data": "Ottieni i miei dati personali"
+    },
+    "detail": {
+      "title": "Informazioni di contatto"
+    },
+    "add": {
+      "title": "Aggiungi dati",
+      "hint": "Doppio tocco per aggiungere",
+      "choose": "Scegli i dati che desideri aggiungere",
+      "details": {
+        "title": "Aggiungi dati",
+        "purpose_question": "Cosa posso fare con questi dati?",
+        "content_question": "Quali dati recupero?",
+        "howto_question": "Come funziona?",
+        "back_button": "Annulla",
+        "get_button": "Aggiungi",
+        "disclosure_info_markdown": "**Nota:** Recuperi tutti i dati disponibili, ma condividerai solo i dati necessari nella richiesta.",
+        "obtain": "Aggiungi {credential} a Yivi-app"
+      }
+    },
+    "search": {
+      "no_results": "Nessun dato trovato per '{query}'."
+    },
+    "category_other": "Altro",
+    "category_personal": "Personale"
+  },
+  "disclosure": {
+    "title": "Richiesta di dati",
+    "disclosure_header": "Vuoi divulgare i seguenti dati a {otherParty}?",
+    "disclosure_call_header": "Vuoi divulgare i seguenti dati a {otherParty} e chiamare a {phoneNumber}?",
+    "signing_header": "{otherParty} ti chiede di firmare un messaggio",
+    "signing_call_header": "{otherParty} ti chiede di firmare un messaggio e chiamare a {phoneNumber}",
+    "unsatisfiable_header": "Non hai tutti i dati che {otherParty} sta chiedendo nella tua app Yivi.",
+    "issuer": "Emettitore",
+    "logo_semantic": "Logo di {otherParty}",
+    "choices": "{choices} scelte",
+    "next": "prossime scelte",
+    "previous": "scelte precedenti",
+    "not_present": "Questi dati non sono ancora stati aggiunti a Yivi.",
+    "not_present_have_other": "I dati richiesti non corrispondono ai dati che hai a disposizione in Yivi.",
+    "you_have": "Hai:",
+    "requested_for": "Questo è richiesto:",
+    "card_count": "{i} di {total}",
+    "among_others": "Tra gli altri",
+    "add_additional": "Vuoi condividere informazioni diverse? Aggiungi dati '{credential}' aggiuntivi.",
+    "expired": "Questi dati sono scaduti.",
+    "revoked": "Questi dati sono stati revocati.",
+    "not_revokable": "Questi dati devono essere aggiornati prima.",
+    "obtain": "Aggiungi",
+    "refresh": "Aggiorna",
+    "nothing_selected": "Niente selezionato",
+    "redirect": "Vieni reindirizzato alla pagina web...",
+    "feedback": {
+      "header": {
+        "success": "Successo",
+        "canceled": "Annullato",
+        "not_satisfiable": "Annullato"
+      },
+      "text": {
+        "success": "I tuoi dati sono divulgati a {otherParty}",
+        "success_signature": "Hai firmato la richiesta di {otherParty}",
+        "canceled": "I tuoi dati non sono stati divulgati a {otherParty}",
+        "canceled_signature": "Non hai firmato la richiesta di {otherParty}",
+        "not_satisfiable": "I tuoi dati non sono divulgati perché {otherParty} richiede dati obsoleti. Non ci sono azioni che puoi compiere per risolvere questo. Per favore contatta la parte richiedente.",
+        "not_satisfiable_signature": "{otherParty} ti sta chiedendo di firmare con dati obsoleti. Non ci sono azioni che puoi compiere per risolvere questo. Per favore contatta la parte richiedente."
+      }
+    }
+  },
+  "disclosure_permission": {
+    "title": "Richiesta di dati",
+    "next": "Avanti",
+    "change_choice": "Cambia scelta",
+    "choose": "Fai una scelta",
+    "obtain_new": "Ottieni nuovi dati",
+    "next_step": "Passo successivo",
+    "obtain_data": "Ottieni dati",
+    "close": "Chiudi",
+    "optional_data": "Dati opzionali",
+    "add_optional_data": "Aggiungi dati opzionali",
+    "no_data_selected": "Nessun dato selezionato",
+    "introduction": {
+      "title": "Inizia",
+      "header": "Condividi i tuoi dati",
+      "explanation": "Raccogli i dati necessari per poterli condividere con le parti richiedenti.",
+      "continue": "Inizia"
+    },
+    "issue_wizard": {
+      "title": "Raccogli dati",
+      "explanation_incomplete": "Ottieni i miei dati passo per passo e condividili con la parte richiedente dopo che",
+      "explanation_complete": "Tutti i dati richiesti sono stati aggiunti"
+    },
+    "previously_added": {
+      "title": "Conferma dati",
+      "explanation": "Questi dati sono già stati aggiunti alla tua app. Conferma che i dati siano ancora corretti."
+    },
+    "overview": {
+      "title": "Condividi i miei dati",
+      "sign": "Questo è il messaggio che stai firmando:",
+      "explanation": "Condividi i miei dati con {requestorName}",
+      "confirm": "Condividi dati",
+      "confirm_sign": "Firma e condividi"
+    },
+    "confirm_dialog": {
+      "title": "Condividi dati",
+      "title_signature": "Firma e condividi dati",
+      "explanation": "Stai per condividere i dati con {requestorName}. Tocca 'Condividi' per continuare",
+      "explanation_signature": "Stai per firmare il messaggio di {requestorName}. Tocca 'Firma e condividi' per continuare",
+      "confirm": "Condividi",
+      "confirm_signature": "Firma e condividi",
+      "decline": "Non condividi",
+      "decline_signature": "Non firma"
+    },
+    "confirm_close_dialog": {
+      "title": "Annullare la condivisione dei dati?",
+      "explanation": "Sei sicuro di non voler condividere i tuoi dati?",
+      "confirm": "Sì",
+      "decline": "No"
+    },
+    "wrong_credentials_added": {
+      "title": "Errore",
+      "explanation": "I dati sono stati aggiunti all'app, ma non soddisfano i criteri richiesti. Per favore ottieni i dati giusti.",
+      "dismiss_action": "OK"
+    },
+    "call": {
+      "title": "Chiama via Yivi",
+      "disclosure_explanation": "Vuoi divulgare i seguenti dati a {otherParty} e chiamare a {phoneNumber}?",
+      "disclosure_success": "I dati sono stati condivisi con {otherParty}",
+      "explanation_header_ios": "Scegli di chiamare",
+      "explanation_ios": "Un popup apparirà, con l'opzione di effettuare la chiamata. Il numero è precompilato, seguito da un codice di collegamento. Se scegli di chiamare, sentirai alcuni beep e sarai connesso.",
+      "explanation_header_android": "1. Scegli di chiamare",
+      "explanation_android": "La tua app telefonica si apre automaticamente. Il numero è precompilato, seguito da un codice di collegamento.",
+      "extra_explanation_header_android": "2. Tocca il pulsante di chiamata nella tua app telefonica",
+      "extra_explanation_android": "Sentirai alcuni beep e sarai connesso."
+    }
+  },
+  "enrollment": {
+    "introduction": {
+      "step_1": {
+        "title": "Yivi è un'app per la tua identità digitale",
+        "explanation": "Il tuo nome ufficiale, la tua data di nascita, il tuo indirizzo, il tuo numero di sicurezza sociale e altro. Sicuramente memorizzato nella tua app Yivi"
+      },
+      "step_2": {
+        "title": "Con Yivi sei in controllo sui tuoi dati",
+        "explanation": "Facile, sicuro e veloce. Sei in controllo su ciò che condividi e con chi."
+      },
+      "step_3": {
+        "title": "Sicuramente sul tuo telefono",
+        "explanation": "Solo tu puoi accedere ai dati sul tuo telefono. Nessuno ha accesso alle tue transazioni, neppure Yivi."
+      }
+    },
+    "confirm_pin": {
+      "instruction": "Inserisci nuovamente il tuo PIN"
+    },
+    "email": {
+      "provide": {
+        "title": "Aggiungi indirizzo e-mail",
+        "header": "Collega il tuo indirizzo e-mail alla tua app Yivi",
+        "explanation": "Un indirizzo e-mail ti permette di disabilitare remotamente la tua app Yivi, in caso di perdita o furto del tuo dispositivo mobile",
+        "input": {
+          "label": "Indirizzo e-mail",
+          "hint": "Inserisci",
+          "invalid": "Indirizzo e-mail non valido"
+        },
+        "confirm_skip_dialog": {
+          "title": "Sei sicuro?",
+          "explanation": "Aggiungere un indirizzo e-mail aumenta la sicurezza",
+          "decline": "Inserisci un indirizzo e-mail"
+        }
+      },
+      "confirm": {
+        "title": "Conferma il tuo indirizzo e-mail",
+        "header": "Il nostro e-mail è stato inviato a:",
+        "explanation": "Può richiedere alcuni minuti prima che l'e-mail arrivi. Non hai ricevuto la nostra e-mail? Per favore controlla la cartella spam.",
+        "explanation_extra_markdown": "Hai ricevuto un'e-mail da **noreply@yivi.app**. Apri il link in questo messaggio per collegare il tuo indirizzo e-mail alla tua app Yivi."
+      }
+    },
+    "terms_and_conditions": {
+      "title": "I nostri valori",
+      "explanation": "Con Yivi, stai prendendo il controllo sui tuoi dati online e proteggere la tua privacy online.",
+      "point_1": "Decidi cosa memorizzi e condividi.",
+      "point_2": "I tuoi dati risiedono solo sul tuo telefono, sicuro e sicuro. Niente altrove.",
+      "point_3": "Nessuno può vedere i tuoi dati o le tue transazioni, neppure Yivi!",
+      "accept_markdown": "Sì, accetto i [termini e condizioni]({terms_url})"
+    },
+    "error_reporting": {
+      "accept": {
+        "share_errors": "Condividi messaggi di errore e stato dell'app",
+        "with_yivi": "con Yivi",
+        "optional": "Opzionale"
+      },
+      "dialog": {
+        "title": "Segnalazione di errori e stato dell'app",
+        "explanation": "Abilitando la segnalazione di errori, stai aiutando a migliorare l'esperienza utente. Questa opzione ti permette anche all'app di inviarci un messaggio di stato dell'app periodico. Naturalmente, non abbiamo accesso ai tuoi dati personali o alle tue transazioni."
+      }
+    },
+    "submit": {
+      "title": "Accesso",
+      "progress_enrollment": "Benvenuto! Per favore attendi un momento, ti stiamo registrando."
+    }
+  },
+  "error": {
+    "title": "Spiacenti, qualcosa è andato storto",
+    "blocked_title": "App bloccata",
+    "button_ok": "OK",
+    "button_send_to_irma": "Invia questo messaggio a Yivi",
+    "button_show_error": "Mostra dettagli tecnici",
+    "button_retry": "Per favore riprova",
+    "button_back": "Indietro",
+    "button_reset": "Inizia tutto da capo",
+    "details_title": "Messaggio di errore",
+    "report": "Se ciò accade di nuovo, per favore informa il team Yivi.",
+    "types": {
+      "general": "Qualcosa è andato storto.",
+      "blocked": "La tua app Yivi è stata bloccata in remoto. Ciò è stato fatto via MyYivi o perché non hai usato Yivi su questo dispositivo per più di un anno. Se vuoi continuare ad usare Yivi su questo dispositivo, dovrai riavviare.",
+      "expired": "La sessione è scaduta. Per favore riavvia.",
+      "pairing_rejected": "La sessione è stata rifiutata. Per favore riavvia.",
+      "no_internet": "Per favore assicurati che il tuo dispositivo abbia una connessione internet funzionante."
+    }
+  },
+  "help": {
+    "about_irma": "Informazioni su Yivi",
+    "ask": "Fai una domanda",
+    "contact": "support@yivi.app",
+    "device": "Mobile",
+    "email": "Invia un'e-mail",
+    "faq": "Domande frequenti",
+    "login": "Accesso",
+    "mail_error": "Spiacenti, non possiamo aprire la tua app e-mail",
+    "mail_error_button": "OK",
+    "mail_error_title": "Spiacenti",
+    "mail_subject": "Assistenza per l'app Yivi",
+    "question_1": "Cosa posso fare con Yivi?",
+    "answer_1_markdown": "Yivi è un'app sicura, privata e gratuita. Yivi funziona come una busta digitale riempita con dati personali. Puoi usarla per accedere a servizi online o per dimostrare la tua identità. Ma sempre condividendo la quantità minima di dati personali. Perché Yivi ti permette di fare quella scelta. Cosa memorizzi, condividi e con chi. Sei in controllo, sempre.\n\nNon devi ricordare i dettagli della tua account e le password lunghe. Solo il tuo PIN Yivi. E quando condividi dati, condividi solo i dati che sono necessari, niente di più. Sia per ordinare un pacchetto online o per fare un appuntamento con il tuo medico.\n\nVuoi ordinare un biglietto online? Con Yivi, puoi facilmente dimostrare che sei più grande di 18. E non condividere più dettagli. Proteggendo la tua privacy nel processo. Puoi anche firmare documenti digitalmente con Yivi, usando i tuoi attributi personali come firma. Puoi firmare come civile, medico o con un altro ruolo. Controlla l'attuale panoramica per vedere la lista delle organizzazioni che stanno già usando Yivi.",
+    "question_2": "Perché Yivi esiste?",
+    "answer_2": "Rimetterti il controllo sui tuoi dati online è il compito di Yivi. Cosa stai memorizzando? Cosa condividi? E con chi? Yivi ti permette di fare quella scelta. Con la nostra app, puoi decidere cosa altri imparano su di te. Questi dati sono condivisi dalla tua app con la parte richiedente, nessuno è parte di quella transazione. Neanche Yivi.\n\nTutto è memorizzato in modo sicuro sul tuo telefono, criptato e dietro un PIN. Non c'è nessun archivio centrale o cloud che contiene i tuoi dati personali. Hai perso il tuo telefono? Non preoccuparti. Basta bloccare remotamente la tua app Yivi. Questo impedisce a chiunque di usare i tuoi dati senza il tuo consenso.\n\nVendere i tuoi dati non è, e non sarà mai, il nostro modello di guadagno. E ancora, Yivi è gratuito. C'è un trucco? No, non c'è! Solo le organizzazioni che usano Yivi pagano per i servizi, garantendo che Yivi rimanga gratuito per te.\n",
+    "question_3": "Chi sta dietro l'app Yivi?",
+    "answer_3_markdown": "La Privacy by Design Foundation è l'organizzazione senza scopo di lucro dietro Yivi. Potresti non essere familiare con quel nome, ma hai probabilmente beneficiato della loro visione se ti interessa l'identità digitale privata. La fondazione è dedicata allo sviluppo di tecnologie sicure, preservanti la privacy, che mettono gli utenti in controllo sui loro dati. Hanno creato Yivi per dare a tutti un modo di identificarsi digitalmente—sicuro e selettivo. \n\n Caesar Groep, con decenni di esperienza nell'innovazione IT e nell'infrastruttura, assicura che Yivi funzioni fluida e sicuramente. Dal backend all'interfaccia utente, Caesar Groep assicura che ogni interazione con Yivi sia fluida e affidabile—in qualsiasi momento, ovunque.",
+    "question_4": "Come usare Yivi per accedere a un sito web mobile?",
+    "answer_4": {
+      "step_1": "Apri il sito web sul tuo dispositivo mobile e seleziona l'accesso con Yivi.",
+      "step_2": "L'app Yivi si avvia automaticamente.\nInserisci il tuo PIN.",
+      "step_3": "Accedi (o rifiuta) a divulgarre i tuoi dati personali.",
+      "step_4": "Dopo la divulgazione sei loggato.\nPuoi ora usare il sito web."
+    },
+    "question_5": "Come usare Yivi per accedere a un sito web sul tuo computer?",
+    "answer_5": {
+      "step_1": "Apri il sito web sul tuo computer e seleziona 'accesso con Yivi'.",
+      "step_2": "Apri l'app Yivi sul tuo telefono e inserisci il tuo PIN.",
+      "step_3": "Avvia il lettore QR nell'app Yivi. Scansiona il codice QR sullo schermo del tuo computer.",
+      "step_4": "Accedi (o rifiuta) a divulgarre i tuoi dati personali.",
+      "step_5": "Dopo la divulgazione sei loggato.\nPuoi ora usare il sito web."
+    },
+    "question_6": "Cosa fare se perdo il mio telefono?",
+    "answer_6_markdown": "Se perdi il tuo telefono nessuno può accedere alla tua app Yivi poiché è protetta con il tuo PIN. Vuoi aumentare la sicurezza? Aggiungi un indirizzo e-mail di recupero durante l'installazione. Questo ti permetterà di bloccare remotamente l'applicazione. Assicurandoti che niente succeda quando perdi il telefono.\n\nNon hai ancora aggiunto un indirizzo di recupero? Vai semplicemente a MijnYivi per aggiungerlo. ",
+    "question_7": "Posso installare Yivi su più dispositivi mobili?",
+    "answer_7": "Sì, lo consigliamo! Scarica l'app su più dispositivi e caricala con i tuoi dati personali. Se perdi un dispositivo, sempre hai un backup.",
+    "question_8": "Dove sono memorizzati i tuoi dati Yivi?",
+    "answer_8": "Tutti i dati memorizzati nell'app Yivi sono memorizzati localmente. Non c'è un archivio centrale (o cloud) che contiene i tuoi dati. Ciò significa che sei l'unico a poter accedere ai tuoi dati. Sei in controllo e stai dando il consenso a condividere i tuoi dati con le organizzazioni online. Hai eliminato i tuoi dati dall'app? Ciò significa che sono tutti andati, permanentemente. Sei in pieno controllo sui tuoi dati. Solo tu decidi cosa condividi e con chi.",
+    "question_9": "Cosa rende Yivi privato e sicuro?",
+    "answer_9": "Rimetterti il controllo sui tuoi dati digitali è il compito di Yivi. Cosa stai memorizzando? Cosa condividi? E con chi? Yivi ti permette di fare quella scelta. Con la nostra app, puoi decidere cosa altri imparano su di te. Questi dati sono condivisi dalla tua app con la parte richiedente, nessuno è parte di quella transazione. Neanche Yivi.\n\nTutto è memorizzato in modo sicuro sul tuo telefono, criptato e dietro un PIN. Non c'è nessun archivio centrale o cloud che contiene i tuoi dati personali. Hai perso il tuo telefono? Non preoccuparti. Basta bloccare remotamente la tua app Yivi. Questo impedisce a chiunque di usare i tuoi dati senza il tuo consenso.\n\nI dati che vengono caricati in Yivi sono digitalmente firmati dal fornitore dei dati. Dimostrando la sua validità. Ciò significa che la parte richiedente può sempre essere sicuro che i dati che hai fornito sono reali.",
+    "question_10": "Perché i dati nell'app Yivi hanno validità limitata?",
+    "answer_10": "Il fornitore dei dati può determinare la durata di validità dei dati. Quindi i tuoi dati possono scadere. Riceverai una notifica nell'app Yivi se ciò accade. Quanto tempo i tuoi dati rimangono validi dipende dal tipo di dati. Il tuo nome e la tua data di nascita sono validi per 5 anni. Il tuo indirizzo è solo un anno. Puoi sempre aggiornare i tuoi dati, quando vuoi. Ad esempio, aggiornando la tua età dopo il tuo 18° compleanno. In questo modo puoi direttamente dimostrare che sei più grande di 18. ",
+    "question_11": "Yivi, privacy e sicurezza",
+    "answer_11": "L'app Yivi è stata sviluppata in modo tale che tu e solo tu puoi vedere e usare i tuoi dati personali. I tuoi dati personali sono memorizzati solo sul tuo telefono e nessun altro. Non memorizziamo i tuoi dati nel cloud.\n\nL'app Yivi permette a un sito web o un negozio di (cryptograficamente) verificare che i dati che hai divulgato sono genuini.\n\nL'app Yivi divulga i tuoi dati direttamente dal tuo telefono al sito web. Nessuno può vedere che stai identificandoti. Neanche l'organizzazione dietro Yivi.\n\nQuando usi Yivi, accetti la [politica sulla privacy](https://www.yivi.app/en/privacy).",
+    "send": "Hai altre/più domande? Invia un'e-mail. Potrebbe richiedere alcuni giorni prima di ricevere una risposta.",
+    "security_and_privacy": "Sicurezza e privacy"
+  },
+  "home": {
+    "nav_bar": {
+      "data": "Dati",
+      "activity": "Attività",
+      "notifications": "Notifiche",
+      "more": "Altro",
+      "scan_qr": "Scansiona QR"
+    },
+    "nav_bar_hints": {
+      "data": "tab 1 su 4",
+      "activity": "tab 2 su 4",
+      "notifications": "tab 3 su 4",
+      "more": "tab 4 su 4"
+    }
+  },
+  "data_tab": {
+    "empty": {
+      "title": "Ottieni i tuoi dati personali",
+      "subtitle": "Tocca l'icona più per ottenere i tuoi dati personali."
+    }
+  },
+  "issuance": {
+    "title": "Aggiungi dati",
+    "description": "Vuoi aggiungere questi dati alla tua app Yivi?",
+    "add": "Aggiungi dati",
+    "cancel": "Annulla",
+    "success_feedback": {
+      "header": "Successo",
+      "text": "I dati sono stati aggiunti con successo a Yivi"
+    }
+  },
+  "issue_wizard": {
+    "back": "Annulla",
+    "done": "OK",
+    "add": "Aggiungi",
+    "add_cards": "Aggiungi carte",
+    "add_credential": "Aggiungi {credential}",
+    "success": {
+      "header": "Successo",
+      "content": "Hai completato con successo tutti i passaggi"
+    }
+  },
+  "more_tab": {
+    "app_management": "Gestione app",
+    "settings": "Impostazioni",
+    "faq": "Domande frequenti",
+    "debugging": "Debugging",
+    "contact": "Contattaci",
+    "share": "Condividi Yivi",
+    "share_text": "Controlla l'app Yivi: https://yivi.app",
+    "website": "Sito web Yivi",
+    "need_help": "Hai bisogno di aiuto?",
+    "know_more": "Maggiori informazioni",
+    "stay_informed": "Rimani informato e unisciti alla conversazione",
+    "slogan": "Ognuno merita la privacy",
+    "version": "Versione {version}",
+    "developer_mode_enabled": "Modalità sviluppatore abilitata",
+    "developer_mode_already_enabled": "Modalità sviluppatore già abilitata",
+    "irma_website": "Sito web Yivi",
+    "irma_website_link": "https://www.yivi.app/en",
+    "privacy_policy": "Politica sulla privacy di Yivi",
+    "privacy_policy_link": "https://www.yivi.app/en/privacy",
+    "app_id": "ID app {id}",
+    "log_out": "Disconnetti"
+  },
+  "pin": {
+    "subtitle": "Inserisci il tuo PIN",
+    "button_forgot": "Ho dimenticato il PIN",
+    "button_block": "Blocca Yivi"
+  },
+  "pin_accessibility": {
+    "show_pin": "Mostra PIN",
+    "hide_pin": "Nascondi PIN",
+    "backspace": "Torna indietro",
+    "empty_pin_input": "Nessun PIN inserito",
+    "digits_entered-1": "{digits} cifra inserita",
+    "digits_entered-2": "{digits} cifre inserite"
+  },
+  "pin_common": {
+    "blocked_for": "Accesso bloccato per",
+    "second": {
+      "time-0": "{time} secondi",
+      "time-1": "{time} secondo",
+      "time-2": "{time} secondi"
+    },
+    "minute": {
+      "time-0": "{time} minuti",
+      "time-1": "{time} minuto",
+      "time-2": "{time} minuti"
+    },
+    "hour": {
+      "time-0": "{time} ore",
+      "time-1": "{time} ora",
+      "time-2": "{time} ore"
+    },
+    "day": {
+      "time-0": "{time} giorni",
+      "time-1": "{time} giorno",
+      "time-2": "{time} giorni"
+    },
+    "invalid_title": "PIN errato",
+    "invalid_pin": {
+      "attempts-0": "Questo PIN non è corretto. Hai {attemps} tentativi prima che la tua app Yivi venga bloccata temporaneamente.",
+      "attempts-1": "Questo PIN non è corretto. Hai {attemps} tentativo prima che la tua app Yivi venga bloccata temporaneamente.",
+      "attempts-2": "Questo PIN non è corretto. Hai {attemps} tentativi prima che la tua app Yivi venga bloccata temporaneamente."
+    },
+    "invalid_close": "Prova di nuovo",
+    "blocked_title": "App bloccata",
+    "blocked_pin": "La tua app è stata bloccata per {blocked}. Per favore riprova più tardi.",
+    "blocked_close": "Prova di nuovo",
+    "done": "Continua",
+    "view": "Mostra PIN",
+    "hide": "Nascondi PIN"
+  },
+  "qr_scanner": {
+    "title": "Scansiona QR Code",
+    "instruction": {
+      "title": "Inizia a scansionare",
+      "message": "Allinea la fotocamera del tuo dispositivo mobile al codice QR di Yivi",
+      "semantic": "Inizia a scansionare! Allinea la fotocamera del tuo dispositivo mobile al codice QR di Yivi."
+    },
+    "success": {
+      "title": "Successo",
+      "message": "Codice QR scansionato",
+      "semantic": "Successo! Codice QR scansionato."
+    },
+    "error": {
+      "title": "Spiacenti",
+      "message": "Questo non è un codice QR di Yivi",
+      "semantic": "Spiacenti! Questo non è un codice QR di Yivi."
+    },
+    "permission_dialog": {
+      "title": "Attiva la fotocamera",
+      "content": "Dai permesso a Yivi di usare la fotocamera. Vai alle impostazioni per dare il permesso.",
+      "settings": "Impostazioni"
+    }
+  },
+  "reset_pin": {
+    "title": "Ho dimenticato il PIN",
+    "header": "Ho dimenticato il tuo PIN?",
+    "explanation": "Siamo spiacenti ma l'organizzazione Yivi non ha una copia del tuo PIN. Se desideri continuare ad usare Yivi, dovrai inserire un nuovo PIN e ricaricare tutti i dati.",
+    "reset": "Inizia tutto da capo"
+  },
+  "rooted_warning": {
+    "title": "Dispositivo non sicuro",
+    "explanation": "Il sistema operativo del tuo dispositivo sembra essere modificato (Rooted/Jailbreak). Per questo, la sicurezza dei tuoi dati non può essere garantita.",
+    "accept_risk": "Accetto il rischio"
+  },
+  "secure_pin": {
+    "info_button": "PIN potenzialmente non sicuro",
+    "title": "Scegli il PIN",
+    "subtitle": "Un PIN sicuro ha le seguenti proprietà:",
+    "rules": {
+      "contains_3_unique": "Contiene almeno 3 numeri unici",
+      "must_not_asc_or_desc": "Non deve contenere pattern di tastiera crescenti o decrescenti, come 12345",
+      "not_abcab_nor_abcba": "Non deve contenere i seguenti pattern di tastiera: abcba, abcab, come 12312, 12321, 13331",
+      "must_contain_valid_subset": "Deve contenere 5 numeri adiacenti, che rispettano le regole menzionate sopra"
+    }
+  },
+  "session": {
+    "navigation_bar": {
+      "more": "Altro",
+      "yes": "Sì",
+      "no": "No",
+      "back": "Indietro",
+      "cancel": "Annulla"
+    },
+    "pairing": {
+      "title": "Controllo di sicurezza aggiuntivo",
+      "instruction": "Inserisci questo codice di verifica sul sito web per un ulteriore livello di sicurezza."
+    },
+    "unknown_session_type": {
+      "title": "Annullato",
+      "explanation": "La sessione Yivi che hai iniziato non è supportata dall'app."
+    }
+  },
+  "session_pin": {
+    "subtitle": "Inserisci il tuo PIN"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "start_qr": "Apri scanner QR all'avvio",
+    "start_qr_explanation": "Apri scanner QR automaticamente dopo l'avvio",
+    "report_errors": "Segnalazione di errori e stato dell'app",
+    "report_errors_explanation": "Abilitando la segnalazione di errori e stato dell'app, stai aiutando a migliorare l'esperienza utente.",
+    "enable_screenshots": "Abilita schermate",
+    "enable_screenshots_explanation": "Quando abilitato, l'app non sarà sfocata nel selettore di app.",
+    "developer_mode": "Modalità sviluppatore",
+    "other": "Altro",
+    "language": "Lingua",
+    "use_system_language": "Usa la lingua del sistema",
+    "change_pin": "Cambia PIN",
+    "delete": "Elimina dati",
+    "confirm_delete_dialog": {
+      "title": "Elimina dati",
+      "explanation": "Se procedi, tutti i dati verranno eliminati dalla tua app Yivi. Se desideri continuare ad usare Yivi, dovrai ricaricare i dati.",
+      "confirm": "Sì, elimina tutto",
+      "deny": "Annulla"
+    }
+  },
+  "ui": {
+    "loading": "Caricamento…",
+    "step_of_steps": "Passo {i} su {n}",
+    "step": "Passo",
+    "done": "Fatto",
+    "next": "Avanti",
+    "previous": "Precedente",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "delete": "Elimina",
+    "skip": "Salta",
+    "continue": "Continua",
+    "retry": "Riprova",
+    "error": "Qualcosa è andato storto",
+    "end_of_list": "Hai raggiunto la fine della lista",
+    "unknown": "Sconosciuto",
+    "go_back": "Vai indietro",
+    "add": "Aggiungi",
+    "activate": "Attiva"
+  },
+  "search": {
+    "cancel": "Annulla"
+  },
+  "update": {
+    "title": "Aggiornamento disponibile",
+    "explanation": "Per continuare ad usare l'app Yivi, devi scaricare la versione più recente.",
+    "update_app": "Aggiorna app"
+  },
+  "name_changed": {
+    "title": "Ti ricordi di noi?",
+    "header": "IRMA ha un nuovo nome e un nuovo aspetto: Yivi",
+    "explanation": "Tutto è rimasto lo stesso sotto il cofano, puoi accedere con il tuo vecchio PIN."
+  },
+  "notifications": {
+    "title": "Notifiche",
+    "empty": "Nessuna notifica",
+    "credential_status": {
+      "revoked": {
+        "title": "Dati revocati",
+        "message": "{issuerName} ha revocato questi dati: {credentialName}"
+      },
+      "expired": {
+        "title": "Dati scaduti",
+        "message": "Questi dati sono scaduti: {credentialName}"
+      },
+      "expiring_soon": {
+        "title": "Dati scadenti presto",
+        "message": "Questi dati scadono presto: {credentialName}"
+      }
+    },
+    "bell": {
+      "new_notifications": "Campana di notifiche - Nuove notifiche",
+      "no_new_notifications": "Campana di notifiche - Nessuna nuova notifica"
+    }
+  },
+  "switch": {
+    "describe_state_on": "Passa allo stato acceso",
+    "describe_state_off": "Passa allo stato spento",
+    "hint_state_on": "Doppio tocco per spegnere",
+    "hint_state_off": "Doppio tocco per accendere"
+  },
+  "debug": {
+    "title": "Debugging",
+    "issue_digid": "Problema DigiD",
+    "random_issuance": "Emetti credenziali casuali",
+    "custom_issue_wizard": "Avvia assistente di emissione",
+    "start_session": "Avvia sessione",
+    "session_helper": "Helper sessione",
+    "confirm_scheme_public_key_dialog_title": "Conferma chiave pubblica",
+    "scheme_management": {
+      "title": "Gestione schema",
+      "issuer_schemes": "Schemi emittenti",
+      "requestor_schemes": "Schemi richiedenti",
+      "success": "Schema aggiunto con successo",
+      "activating": "Attivazione {scheme}...",
+      "activate_success": "Schema {scheme} attivato con successo.",
+      "remove": "Rimozione {scheme}...",
+      "update": "Aggiorna schemi",
+      "updating": "Aggiornamento schemi...",
+      "update_success": "Schemi aggiornati con successo.",
+      "install_scheme_dialog": {
+        "title": "Installa schema",
+        "content": "Inserisci l'URL del schema che deve essere installato:"
+      },
+      "request_pin": {
+        "title": "Attiva schema",
+        "content": "Inserisci il tuo PIN per confermare l'attivazione dello schema {scheme}"
+      },
+      "verify_pin": {
+        "title": "Verifica PIN",
+        "content": "Autentica a server di keyshare dello schema {scheme}",
+        "success": "PIN verificato con successo",
+        "failed": "PIN verificato con fallimento (tentativi rimanenti: {remainingAttempts}, bloccato per {blockedDuration} secondi)."
+      },
+      "warning_dialog": {
+        "title": "Avviso!",
+        "content": "L'aggiunta e la rimozione di schemi possono interrompere la tua app. Continua solo se sai cosa stai facendo."
+      }
+    },
+    "delete_credentials": {
+      "delete": "Elimina tutte le credenziali",
+      "success": "Credenziali eliminabili eliminate con successo",
+      "dialog": {
+        "title": "Elimina credenziali",
+        "content": "Sei sicuro di voler eliminare tutte le credenziali?"
+      }
+    }
+  }
+}
